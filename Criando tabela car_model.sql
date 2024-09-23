@@ -1,7 +1,7 @@
 -- SQLite
 CREATE TABLE CAR_MODEL (
     ID INTEGER PRIMARY KEY AUTOINCREMENT,
-    MODEL_NAME VARCHAR(120)
+    MODEL_NAME VARCHAR(120) NOT NULL
 );
 
 INSERT INTO CAR_MODEL (MODEL_NAME) VALUES
@@ -14,4 +14,4 @@ INSERT INTO CAR_MODEL (MODEL_NAME) VALUES
     ('Picape'),
     ('Minivan'),
     ('Utilitário'),
-    ('Buggy')
+    ('Buggy');
